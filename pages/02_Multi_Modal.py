@@ -45,7 +45,7 @@ with st.sidebar:
     # 모델 선택 메뉴
     selected_model = st.selectbox("LLM 선택", ["gpt-4o", "gpt-4o-mini"], index=0)
 
-    )
+
 
 
 # 이전 대화를 출력
