@@ -45,11 +45,6 @@ with st.sidebar:
     # 모델 선택 메뉴
     selected_model = st.selectbox("LLM 선택", ["gpt-4o", "gpt-4o-mini"], index=0)
 
-    # 시스템 프롬프트 추가
-    system_prompt = st.text_area(
-        "시스템 프롬프트",
-        "당신은 표(재무제표) 를 해석하는 금융 AI 어시스턴트 입니다.\n당신의 임무는 주어진 테이블 형식의 재무제표를 바탕으로 흥미로운 사실을 정리하여 친절하게 답변하는 것입니다.",
-        height=200,
     )
 
 
