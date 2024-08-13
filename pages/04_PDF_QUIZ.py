@@ -27,7 +27,7 @@ if not os.path.exists(".cache/files"):
 if not os.path.exists(".cache/embeddings"):
     os.mkdir(".cache/embeddings")
 
-st.title("PDF 기반 QA💬")
+st.title("PDF 기반 퀴즈 생성기")
 
 # 처음 1번만 실행하기 위한 코드
 if "messages" not in st.session_state:
